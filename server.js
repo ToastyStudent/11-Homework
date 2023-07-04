@@ -16,4 +16,4 @@ app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
 // Start the server on the selected port
-app.listen(PORT, () => console.log(`Now Listening on PORT: ${PORT}`));
+app.listen(PORT, () => console.log(`Now Listening at http://localhost:${PORT}`));
